@@ -1,5 +1,4 @@
-This data science project is step by step process of how to build a real estate price prediction. We will first build a model using sklearn and linear regression using banglore home prices dataset from kaggle.com.During model building we will cover almost all data science concepts such as data load and cleaning, outlier detection and removal, feature engineering, dimensionality reduction, k fold cross validation etc. Technology and tools wise this project covers,
-
+This machine learning model is built for predicting the price of homes in bengaluru . We did data preprocessing – Handled NA values, Feature Engineering –  created new columns ‘bhk’ and sq. feet per price, converted sq. feet few string value into float, dimensionality reduction – reduced number of location, outlier removal using std deviation and mean,used one hot encoding for location, built mode using linear regression, used k fold cross validation to measure the accuracy of linear regression model,gridsearchcv.
 Python
 Numpy and Pandas for data cleaning
 Matplotlib for data visualization
